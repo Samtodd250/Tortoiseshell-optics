@@ -70,3 +70,7 @@ h1{
   margin-right: -2rem;
   background-color: white;
 }
+
+header .flex {
+    justify-content: flex-end;
+}
