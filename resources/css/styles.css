@@ -5,7 +5,7 @@ html{
 
 .container {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .flex{
@@ -24,11 +24,9 @@ header{
 }
 
 .logoimage{
-  padding-left: 2rem;
-  padding-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
   height: 1.5rem;
-  padding: 1rem;
-  display: flex;
 }
 
 nav{
@@ -58,10 +56,10 @@ ul li{
 
 
 
-H1{
+h1{
     font-size: 2rem;
     font-weight: bold;
-    margin: .67em 0;
+    line-height: 1.2;
     color: black;
 }
 
