@@ -147,3 +147,56 @@ footer{
 footer div{
   padding-left: 1rem;
 }
+
+/* Tablet Size*/
+
+@media only screen and (max-width: 1024px) {
+  nav .container{
+    max-width: 100%;
+  }
+  header{
+    padding-top: 0;
+    height: 22rem;
+  }
+  .banner{
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+}
+
+/* mobile size */
+
+@media only screen and (max-width: 560px) {
+  nav .container{
+    max-width: 100%;
+  }
+  header{
+    padding-top: 0;
+    height: 17rem;
+    background-position: 20%;
+  }
+  .banner{
+    margin-top: 9rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .supporting{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5rem;
+  }
+  .info{
+    width: 100%;
+  }
+  .info .title{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .info p{
+    padding: 1rem;
+    font-size: .77rem;
+  }
+}
