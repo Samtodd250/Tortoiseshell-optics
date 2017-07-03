@@ -12,6 +12,10 @@ html{
   display: flex;
 }
 
+div{
+  display: block;
+}
+
 /*Header & Menu */
 
 header{
@@ -73,4 +77,73 @@ h1{
 
 header .flex {
     justify-content: flex-end;
+}
+
+/* Services */
+
+.supporting{
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  padding-top: 3rem;
+  width: 5rem;
+  height: 8rem;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+#paper{
+  width: 3.5rem;
+}
+
+#rulercar{
+  width: 5rem;
+}
+
+/* info */
+
+.info{
+  width: 35%;
+  padding-top: 3rem;
+  margin-right: 5%;
+}
+
+h3{
+  background-color: cadetblue;
+  max-width: 10rem;
+  padding-left: 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+p{
+  padding-top: 1rem;
+  width: 95%;
+  margin-bottom: 4rem;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  background-color: azure;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+
+#blacklogo{
+  height: 1.5rem;
+}
+
+footer div{
+  padding-left: 1rem;
 }
